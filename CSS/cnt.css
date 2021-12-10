@@ -1,0 +1,111 @@
+.main .cntsin{
+    margin: 0 auto;
+    width: 900px;
+   background-color: white;
+   position: relative;
+   float: left;
+   margin-left: 300px;
+}
+
+.main .cntsin .rec{
+    width: 180px;
+    position: absolute;
+    border: 1px solid #d3d3d3;
+    padding: 0 10px 40px;
+    background-color: rgb(249,249,249);
+    
+}
+
+.main .cntsin .nav_fcb{
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+
+}
+#spart{
+    height: 50px;
+}
+
+.main .cntsin ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.main .cntsin ul li{
+    float: left;
+    width: 160px;
+    height: 29px;
+    line-height: 29px;
+    margin-bottom: 2px;
+}
+
+.main .cntsin  .rec .blk{
+    margin: 5px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid #d3d3d3;
+    margin-top:100px;
+}
+
+.main .cntsin  .rec h2{
+    font-weight: bolder;
+}
+
+.main .cntsin ul li:visited{
+    color: red;
+}
+
+.main .cntsin ul li:hover{
+    text-decoration: underline;
+}
+
+.main .cntsin .gwrap{
+    margin-top: 10px;
+    margin-left:240px;
+}
+
+.main .cntsin .gwrap .t_tile{
+    height: 60px;
+    border-bottom: 2px solid #c20c0c;
+    margin-top: 16px;
+}
+
+.main .cntsin .gwrap .t_tile h3{
+    float: left;
+    font-size: 24px;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.main .cntsin .gwrap .singerlist ul li{
+    list-style: none;
+    text-align: center;
+    width: 130px;
+    height: 154px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.main .cntsin .gwrap .singerlist ul
+{
+    margin: 20px 0 0 0px;
+    margin-left: -60px;
+}
+.main .cntsin .gwrap .singerlist .singer{
+    width: 130px;
+    height: 130px;
+
+}
+
+.main .cntsin .gwrap .singerlist .singer img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
