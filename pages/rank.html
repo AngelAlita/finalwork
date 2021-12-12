@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/common.css">
+    <script src="../js/fun.js"></script>
 </head>
 <body>
-    <div class="main clear_fix">
+    <div class="main clear_fix" >
         <header class="top clear_fix">
             <h1 class="logo fl">
                 <img src="../images/new-logo.png" alt="">
@@ -37,13 +38,172 @@
                     </span>
                 </li>
             </ul>
-
+            <form action="">
+                <input type="text" name="" id="" value="">
+                <input type="submit" name="" id="" value="搜索" onclick="nofun()">
+            </form>
         </header>
+        <audio src="../sounds/夜曲.mp3" id="yequ"></audio>
+        <div class="content" style="width:1000px;height: 790px;">
+            <div class="head">
+                <div class="imagelo">
+                    <img src="../images/hotsong.jpg" alt="">
+                </div>
+                <div class="cnt" style="left: 400px;">
+                    <div class="hd">
+                        <em>热歌榜</em>
+                    </div>
 
-        <div class="content">
-               
+                   <p class="hotsong">最近更新：12月12日</p>
+
+                    <div class="m-info">
+                        <audio src="../sounds/夜曲.mp3" id="yequ"></audio>
+                        <a href="javascript:void(0);" onclick="js_playhot()"  class="play"  >
+                            播放
+                        </a>
+                        <a href="javascript:void(0);"onclick="nof()" class="anp">
+                            收藏
+                        </a>
+                        <a href="javascript:void(0);"onclick="nof()" class="anp">
+                            分享
+                        </a>
+                        <a href="javascript:void(0);" class="anp" onclick="nof()"download="../sounds/夜曲.mp3">
+                            下载
+                        </a>
+                        <a href="javascript:void(0);"onclick="nof()" class="anp">
+                            评论
+                        </a>
+                    </div>
+                </div>
+                <p class="ttt">歌曲列表</p>
+            </div>
+            
+            <div class="songss">
+               <table>
+                   <thead>
+                       <tr>
+                           <th class="w1"></th>
+                           <th class="w2"><p>标题</p></th>
+                           <th class="w3"><p>时长</p></th>
+                           <th class="w4"><p>歌手</p></th>
+                       </tr>
+                   </thead>
+
+                <tbody>
+                   <tr>
+                       <td><p class="hd" style="line-height: 50px;">1</p></td>
+                       <td>
+                           <div class="tt">
+                               <a href="#">
+                                    <img src="../images/hs/hs1.jpg" alt="">
+                                </a>
+                                <a href="#">孤勇者(英雄联盟：双城之战主题曲)</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">04:16</p></td>
+                       <td><a href="#" class="txt1">陈奕迅</a></td>
+                   </tr>
+                   <tr>
+                    <td><p class="hd" style="line-height: 50px;">2</p></td>
+                    <td>
+                        <div class="tt">
+                            <a href="#">
+                                 <img src="../images/hs/slb.jpg" alt="">
+                             </a>
+                             <a href="#">删了吧(要不你还是把我删了吧)</a>
+                        </div>
+                    </td>
+                    <td><p class="txt1">03:24</p></td>
+                    <td><a href="#" class="txt1">烟(许佳豪)</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">3</p></td>
+                    <td>
+                        <div class="tt">
+                            <a href="#">
+                                 <img src="../images/hs/lsm.jpg" alt="">
+                             </a>
+                             <a href="#">罗生门</a>
+                        </div>
+                    </td>
+                    <td><p class="txt1">04:03</p></td>
+                    <td><a href="#" class="txt1">梨冻紧/Wiz_H张子豪</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">4</p></td>
+                       <td>
+                           <div class="tt">
+                                <a href="#">哪里都是你</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">03:42</p></td>
+                       <td><a href="#" class="txt1">队长</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">5</p></td>
+                       <td>
+                           <div class="tt">
+                                <a href="#">予你 (《解药》官方主题曲)</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">03:51</p></td>
+                       <td><a href="#" class="txt1">队长</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">6</p></td>
+                       <td>
+                           <div class="tt">
+                                <a href="#">致你(女声版)</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">04:31</p></td>
+                       <td><a href="#" class="txt1">yihuki筱慧</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">7</p></td>
+                       <td>
+                           <div class="tt">
+                                <a href="#">漠河舞厅 2022</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">05:04</p></td>
+                       <td><a href="#" class="txt1">柳爽</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">8</p></td>
+                       <td>
+                           <div class="tt">
+                                <a href="#">对等关系</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">05:27</p></td>
+                       <td><a href="#" class="txt1">李荣浩/张惠妹</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">9</p></td>
+                       <td>
+                           <div class="tt">
+                                <a href="#">黑夜问白天</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">04:52</p></td>
+                       <td><a href="#" class="txt1">林俊杰</a></td>
+                </tr>
+                <tr>
+                    <td><p class="hd" style="line-height: 50px;">10</p></td>
+                       <td>
+                           <div class="tt">
+                                <a href="#">浪漫主义</a>
+                           </div>
+                       </td>
+                       <td><p class="txt1">03:36</p></td>
+                       <td><a href="#" class="txt1">姜云升</a></td>
+                </tr>
+               </tbody>
+
+               </table>          
+            </div>
         </div>
-      
     </div>
 </body>
 </html>

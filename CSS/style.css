@@ -29,6 +29,15 @@ body{
     float: left;
 }
 
+.main .top form{
+    float: left
+}
+
+.main .top form input{
+    height: 30px;
+    background-color: #fff;
+    border-radius:50px;
+}
 .main .top .my_nav li{
     float: left;
     width: 94px;
